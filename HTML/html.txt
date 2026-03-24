@@ -1,0 +1,2 @@
+HTML stands for hypertext markup language
+its used to create and structure website

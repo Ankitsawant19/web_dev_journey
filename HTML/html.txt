@@ -1,2 +1,196 @@
-HTML stands for hypertext markup language
-its used to create and structure website
+.
+
+🌐 WHAT IS HTML?
+
+HTML (HyperText Markup Language) is used to structure web pages.
+
+👉 Think:
+
+HTML = Skeleton 🦴
+CSS = Design 🎨
+JavaScript = Brain 🧠
+🧱 BASIC STRUCTURE (VERY IMPORTANT)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+</body>
+</html>
+🔍 Explanation:
+Part	Purpose
+<!DOCTYPE html>	Tells browser this is HTML5
+<html>	Root element
+<head>	Metadata (not visible)
+<body>	Visible content
+🧠 HEAD TAG (IMPORTANT FOR INTERVIEWS)
+<head>
+    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+Key Tags:
+<title> → Tab name
+<meta> → SEO, encoding, responsiveness
+🧾 TEXT TAGS
+🔹 Headings
+<h1>Main Heading</h1>
+<h2>Sub Heading</h2>
+...
+<h6>Small Heading</h6>
+
+👉 h1 = most important (SEO)
+
+🔹 Paragraph
+<p>This is a paragraph</p>
+🔹 Formatting Tags
+<b>Bold</b>
+<strong>Important</strong>
+<i>Italic</i>
+<em>Emphasis</em>
+<u>Underline</u>
+<mark>Highlight</mark>
+<small>Small text</small>
+
+👉 Difference:
+
+<b> vs <strong> → strong has meaning (SEO)
+<i> vs <em> → em is semantic
+🔗 LINKS (VERY IMPORTANT)
+<a href="https://google.com">Go to Google</a>
+Attributes:
+Attribute	Meaning
+href	URL
+target="_blank"	Open in new tab
+<a href="https://google.com" target="_blank">Open</a>
+🖼️ IMAGES
+<img src="image.jpg" alt="description" width="200">
+Attributes:
+src → image path
+alt → accessibility + SEO
+width/height → size
+📦 DIV vs SPAN
+<div>This is block</div>
+<span>This is inline</span>
+Tag	Type
+div	block (new line)
+span	inline
+📋 LISTS
+🔹 Unordered List
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+</ul>
+🔹 Ordered List
+<ol>
+    <li>Step 1</li>
+    <li>Step 2</li>
+</ol>
+📊 TABLES
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Ankit</td>
+        <td>21</td>
+    </tr>
+</table>
+📝 FORMS (VERY IMPORTANT 🔥)
+<form>
+    <label>Name:</label>
+    <input type="text">
+
+    <br>
+
+    <label>Password:</label>
+    <input type="password">
+
+    <br>
+
+    <input type="submit">
+</form>
+🔹 Input Types
+<input type="text">
+<input type="email">
+<input type="password">
+<input type="number">
+<input type="date">
+<input type="checkbox">
+<input type="radio">
+<input type="file">
+🔹 Textarea
+<textarea rows="4"></textarea>
+🔹 Select Dropdown
+<select>
+    <option>Cricket</option>
+    <option>Football</option>
+</select>
+🧭 SEMANTIC TAGS (IMPORTANT FOR INTERVIEW)
+<header></header>
+<nav></nav>
+<section></section>
+<article></article>
+<footer></footer>
+
+👉 These improve:
+
+SEO
+Accessibility
+Code readability
+🔗 LINKING CSS & JS
+🔹 CSS Linking
+<link rel="stylesheet" href="style.css">
+🔹 JavaScript Linking
+<script src="script.js"></script>
+📁 FILE STRUCTURE
+project/
+│── index.html
+│── style.css
+│── script.js
+│── images/
+🌍 ABSOLUTE vs RELATIVE PATH
+Type	Example
+Absolute	https://site.com/image.jpg
+
+Relative	images/photo.jpg
+⚡ IMPORTANT CONCEPTS
+🔹 Block vs Inline
+Block → takes full width (div, p)
+Inline → takes content width (span, a)
+🔹 Attributes
+<tag attribute="value">
+
+Example:
+
+<a href="link">Click</a>
+🚀 MINI REAL PROJECT (VERY IMPORTANT)
+
+Try this:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+</head>
+<body>
+
+    <h1>Ankit Sawant</h1>
+
+    <img src="https://via.placeholder.com/150">
+
+    <p>I am a Computer Engineering student</p>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>Java</li>
+        <li>Web Dev</li>
+    </ul>
+
+    <a href="https://github.com">My GitHub</a>
+
+</body>
+</html>
